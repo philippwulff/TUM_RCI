@@ -1,0 +1,76 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[a4paper,tmargin={3cm},bmargin = {3cm}, lmargin={2cm}, rmargin={2cm}]{geometry} %Legt Format d. Dokuments fest
+\usepackage{amsmath,array,hyperref,fancyhdr,amssymb,relsize,amsthm,answers,setspace,graphicx,color,tikz,lmodern,ngerman,geometry,titletoc,booktabs,calc,microtype,titlesec,listings,blindtext}
+\usepackage[shortlabels]{enumitem}
+\usepackage{subfig}
+\usepackage{caption}
+\usepackage{stfloats}
+\usepackage{placeins}
+%\usepackage[utf8]{inputenc}
+%\usepackage[lastexercise]{exercise}
+\newcommand\given[1][]{\:#1\vert\:}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define custom commands %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Writes a vector arrow above a letter with enough spacing on the right for superscripts.
+\makeatletter
+\newcommand{\vect}[1]{\vec{#1}\@ifnextchar{^}{\,}{}}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{arabic}
+\selectlanguage{english}
+
+\definecolor{red2}{RGB}{150, 20, 40}
+\definecolor{green2}{RGB}{20,140, 40}
+\definecolor{blue2}{RGB}{20,20,140}
+\titleformat{\section}
+{\color{red2}\normalfont\Large\bfseries}
+{\color{red2}Chapter \thesection :}{1em}{}[\titlerule]
+
+\titleformat{\subsection}
+{\color{red2}\normalfont\bfseries}
+{\color{red2}\thesubsection}{1em}{}[\color{black}\titlerule]
+
+\titleformat{\subsubsection}
+{\color{red2}\normalfont}
+{\color{red2}\thesubsubsection}{1em}{}
+
+
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=green2
+}
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{\color{red2}\textbf{Robotics (IN2067)}}
+\author{Philipp Wulff and Jan Hansen-Palmus}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+%\includeonly{sections/9-nearest-neighbor,sections/10-logistic-regression}
+%\includeonly{sections/11-grad-desc}
+
+\begin{document}
+\rmfamily
+\maketitle
+\tableofcontents
+\newpage
+\include{sections/0-preface.tex}
+\include{sections/1-motivation}
+\include{sections/2-forwardkinematics}
+\include{sections/3-inversekinematics}
+\include{sections/4-robotdynamics}
+\include{sections/5-control.tex}
+\include{sections/6-formulas.tex}
+
+\end{document}

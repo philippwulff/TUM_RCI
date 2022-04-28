@@ -1,0 +1,78 @@
+\contentsline {section}{\numberline {1}Preface}{3}{section.1}%
+\contentsline {section}{\numberline {2}Motivation}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Types of joints}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Forward kinematics}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Workspace}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Configuration}{5}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Degrees of freedom}{5}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Right-hand-rule}{5}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Spatial descriptions}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Position}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Orientation}{6}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Euler angles}{7}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Unit quaternions (Euler parameters)}{9}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Spatial transformations}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Forward kinematics}{11}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Denavit-Hartenberg Convention}{11}{subsubsection.3.4.1}%
+\contentsline {section}{\numberline {4}Inverse Kinematics}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Multiplicity of Solutions}{15}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Redundancy}{15}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Analytic solutions for the inverse kinematics}{16}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Geometric solution}{16}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Algebraic solution}{16}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Example}{17}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Numeric solutions to the inverse kinematics}{17}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Newton's Method}{18}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Gradient Descent Method}{19}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Numeric computation of the Jacobian}{19}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Jacobi Matrix (``Jacobian'')}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Applications in Mathematics}{21}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Taylor's theorem}{21}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Multi-dimensional chain rule}{21}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Jacobian as the Derivative of the Position Representation (Differential motion)}{21}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Craig's derivation of rotational velocities}{22}{subsubsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.3}Jacobians and Velocities}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Velocities}{24}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Explicit Form}{25}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Kinematic Singularity}{27}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Jacobian for Approximating very small (``infinitesimal'') Movements}{27}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Frame of reference of a Jacobian}{28}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Forces and Torques in Static Manipulators}{28}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Robot Dynamics}{30}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Rigid Body Dynamics}{30}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Newton-Euler Method}{30}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Newton's equation}{30}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Euler's equation}{31}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Linear acceleration}{31}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}Angular acceleration}{31}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.5}Newton-Euler Algorithm}{32}{subsubsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.3}State-Space equation (M-V-G-form)}{33}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Mass distribution}{33}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Linear Momentum}{33}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Angular Momentum}{33}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Inertia Tensor}{34}{subsubsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4}Parallel-Axis Theorem}{35}{subsubsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.5}Euler-Lagrange Equations}{35}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Control}{38}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Mass-Spring-Systems}{38}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Solution of the Dynamic Equation (Position Control)}{39}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Resonance}{39}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Control Partitioning}{40}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Trajectory following/ Motion Control}{41}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Multi-dimensional systems}{41}{subsubsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.2}Manipulator Control}{42}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Formula Cheat Sheet}{44}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Denavit-Hartenberg Parameters}{44}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Jacobian}{44}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Velocity Propagation}{44}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Force/ Torque Propagation}{45}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Explicit Form}{45}{subsubsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.3}Newton-Euler Method}{45}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Parallel-Axes Theorem}{46}{subsubsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.4}Lagrange Method}{46}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}M-V-G-form (State-Space-form)}{46}{subsubsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.5}Control}{46}{subsection.8.5}%
+\contentsline {subsubsection}{\numberline {8.5.1}Mass-Spring-System}{46}{subsubsection.8.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.2}PD Control}{47}{subsubsection.8.5.2}%
+\contentsline {subsubsection}{\numberline {8.5.3}Controller Block Diagram}{47}{subsubsection.8.5.3}%
+\contentsfinish 
