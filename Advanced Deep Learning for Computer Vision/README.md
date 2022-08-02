@@ -4,6 +4,8 @@ Content from summer semester 2022.
 
 ## Useful Links
 
+[[Course Page](https://niessner.github.io/ADL4CV/)]
+
 ### 1 - Visualization
 
 - [Understanding Neural Networks Through Deep Visualization](https://yosinski.com/deepvis) -> Visualizing features
