@@ -1,0 +1,97 @@
+
+% Originally from 
+% https://www.overleaf.com/articles/matrices/ktvccmrrmcqd
+
+\documentclass[10pt]{article}
+\usepackage[german]{babel}	  % english or german
+\usepackage[utf8]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage{caption}
+\usepackage{amsfonts, amsmath, amsthm, amssymb}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\newcounter{countCode}
+\lstnewenvironment{code} [1][caption=Ponme caption, label=default]{%
+	\renewcommand*{\lstlistingname}{Listado} 
+	\setcounter{lstlisting}{\value{countCode}} 
+	\lstset{ %
+	language=java,
+	basicstyle=\ttfamily\footnotesize,       % the size of the fonts that are used for the code
+	numbers=left,                   % where to put the line-numbers
+	numberstyle=\sc,      % the size of the fonts that are used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. 
+	numbersep=5pt,                 % how far the line-numbers are from the code
+	numberstyle=\color{red!50!blue},
+    	backgroundcolor=\color{lightgray!20},
+	rulecolor=\color{blue},
+	keywordstyle=\color{red}\bfseries,
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	framexleftmargin=0mm,
+	numberblanklines=false,
+	xleftmargin=5pt,
+	breaklines=true,
+	breakatwhitespace=true,
+	breakautoindent=true,
+	captionpos=t,
+	texcl=true,
+	tabsize=2,                      % sets default tabsize to 3 spaces
+	extendedchars=true,
+	inputencoding=utf8, 
+	escapechar=\%,
+	morekeywords={print, println, size, background, strokeWeight, fill, line, rect, ellipse, triangle, arc, save, PI, HALF_PI, QUARTER_PI, TAU, TWO_PI, width, height,},
+	emph=[1]{print,println,}, emphstyle=[1]{\color{blue}}, % Mis palabras clave.
+	emph=[2]{width,height,}, emphstyle=[2]{\bf\color{violet}}, % Mis palabras clave.
+	emph=[3]{PI, HALF_PI, QUARTER_PI, TAU, TWO_PI}, emphstyle=[3]\color{orange!50!violet}, % Mis palabras clave.
+	emph=[4]{line, rect, ellipse, triangle, arc,}, emphstyle=[4]\color{green!70!black}, % Mis palabras clave.
+	%emph=[5]{size, background, strokeWeight, fill,}, emphstyle=[5]{\tt \color{red!30!blue}}, % Mis palabras clave.
+	%emph={[2]sqrt,baset}, emphstyle={[2]\color{blue}}, % f(sqrt(2)), sqrt a nivel 2 se pondrá azul
+	#1}}{\addtocounter{countCode}{1}}
+
+\usepackage{stackengine}
+\usepackage{scalerel}
+\usepackage{xcolor,amssymb}
+
+\newcommand\dangersign[1][2ex]{%
+  \scaleto{\stackengine{0.3pt}{\scalebox{1.2}[0.9]{%
+  \color{red}$\blacktriangle$}}{\tiny\bfseries !}{O}{c}{F}{F}{L}}{#1}%
+}
+\newcommand\hintsign[1][2ex]{%
+  \scaleto{\stackengine{0.3pt}{\scalebox{1.2}[0.9]{%
+  \color{orange}$\blacktriangle$}}{\tiny\bfseries !}{O}{c}{F}{F}{L}}{#1}%
+}
+
+
+\title{Bionik (Biomimetics)}
+\author{Philipp Wulff, Leo Holzhauer}
+\date{\today}
+\begin{document}
+\maketitle \tableofcontents 
+
+\begin{abstract}
+    Abbildungen und Textpassagen sind aus der Vorlesung von Dr.\ Tobias Kohl (Lehrstuhl für Zoologie; Prof.\ Luksch). Inhalte aus dem Sommersemester 2022:
+    \begin{itemize}
+    	\item Grundprinzipien der bionischen Arbeitsweise
+    	\item Vorstellung von „erfolgreichen“ Entwicklungen
+    	\item Kritische Betrachtung und Evaluierung der bionischen Produkte
+     	\item Anregen zur Aneignung bionischer Denkweisen
+    \end{itemize}
+    Wir markieren besonders klausurrelevante Stellen mit dem Symbol: \dangersign[3ex].
+\end{abstract}
+
+\include{lec1/lec1}
+\include{lec2/lec2}
+\include{lec3/lec3}
+\include{lec4/lec4}
+\include{lec5/lec5}
+\include{lec6/lec6}
+\include{lec7/lec7}
+\include{lec8/lec8}
+\include{lec9/lec9}
+
+\end{document}
