@@ -9,7 +9,8 @@ Content from summer semester 2022.
 ### 1 - Visualization
 
 - [Understanding Neural Networks Through Deep Visualization](https://yosinski.com/deepvis) -> Visualizing features
-- [TensorFlow DeepDream](https://www.tensorflow.org/tutorials/generative/deepdream) -> How it works
+- [OG DeepDream Blogpost](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) -> only non-technical overview of results
+- [TensorFlow DeepDream Implementation](https://www.tensorflow.org/tutorials/generative/deepdream) -> How it works (differs from what was said in the lecture???)
 - [Understanding Variational Autoencoders (VAEs)](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73) -> Medium deepdive
 - [VGG Very Deep Convolutional Networks (VGGNet)](https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/)
 - [Intuitive Guide to Neural Style Transfer](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee) -> explains content loss + style loss
