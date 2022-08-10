@@ -18,6 +18,7 @@ Content from summer semester 2022.
 - [Understanding Variational Autoencoders (VAEs)](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73) -> Medium deepdive
 - [VGG Very Deep Convolutional Networks (VGGNet)](https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/)
 - [Intuitive Guide to Neural Style Transfer](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee) -> explains content loss + style loss
+- [Reparameterization trick in VAE](https://stats.stackexchange.com/questions/199605/how-does-the-reparameterization-trick-for-vaes-work-and-why-is-it-important)
 
 ### 5 - Generative Neural Networks
 
