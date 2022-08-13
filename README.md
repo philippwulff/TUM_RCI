@@ -2,11 +2,11 @@
 
 In this repository you can find lecture notes and cheat sheets for some of the courses in *Robotics, Cognition, Intelligence*. 
 
-I started my Master in Robotics, Cognition, Intelligence at the Technical University of Munich in the winter semester of 2021/2022. At the time, I could not find as many good lecture notes for my courses online as was the case in my Bachelor. I created this repo hoping that over time it will become the ressource I was looking for. Maybe it will be of help to you!
+When I started my Master in Robotics, Cognition, Intelligence in the winter semester of 2021/2022 I could not find as many good lecture notes for my courses online. I created this repo hoping that over time it will become the ressource I was looking for. Maybe it will be of help to you!
 
 ## Contributing 🏗
 
-If you want to contribute your own notes/summaries/etc. please just create a pull request and I will gladly accept it 😀.
+If you want to contribute your own notes/summaries/etc. just create a pull request and I will gladly accept it 😀.
 
 ## License ⚖️
 
