@@ -1,4 +1,10 @@
 # Advanced Deep Learning for Robotics (SS22)
----
+
 [[Course website]](https://bbaeuml.github.io/tum-adlr/adlr/index.html)
 * [Recap: Machine Learning & Deep Learning](https://hip-fin-125.notion.site/Advanced-Deep-Learning-for-Robotics-Recap-Machine-Learning-Deep-Learning-b76c953fecde480087fc34732a8d6777)
+* [Advanced Network Architecture](https://hip-fin-125.notion.site/Advanced-Deep-Learning-for-Robotics-Advanced-Network-Architecture-6cbf909c7f1c470590bdbb759bf65ce8)
+* [Hyperparameter & Architecture Search](https://hip-fin-125.notion.site/Advanced-Deep-Learning-for-Robotics-Hyperparameter-Architecture-Search-255a72b3ad9f4766827bcd96e4271b09)
+* [Adversarial Examples and Adversarial Training](https://hip-fin-125.notion.site/Advanced-Deep-Learning-for-Robotics-Adversarial-Examples-and-Adversarial-Training-430306fbb9344ed8b267b6dd664d830f)
+* [Bayesian Deep Learning](https://hip-fin-125.notion.site/Advanced-Deep-Learning-for-Robotics-Bayesian-Deep-Learning-268967172b6a4caa869d149dbb759847)
+* [Generative Models: VAEs & GANs](https://hip-fin-125.notion.site/Advanced-Deep-Learning-for-Robotics-Generative-Models-VAEs-GANs-e454d2811bf64e5fb55313bafaea1c21)
+* [Deep Reinforcement Learning](https://hip-fin-125.notion.site/Advanced-Deep-Learning-for-Robotics-Deep-Reinforcement-Learning-2e46dcaca3ee4b489186ecee180153e4)
