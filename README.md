@@ -10,4 +10,4 @@ If you want to contribute your own notes/summaries/etc. just create a pull reque
 
 ## License ⚖️
 
-Please respect the [TUM code of conduct](https://www.in.tum.de/en/in/current-students/administrative-matters/student-code-of-conduct/) and do not copy. Besides, there is the license.
+Please respect the [TUM code of conduct](https://www.in.tum.de/en/in/current-students/administrative-matters/student-code-of-conduct/) and do not copy. Besides, there is no license.
