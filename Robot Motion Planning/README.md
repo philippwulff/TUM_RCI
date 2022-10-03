@@ -8,3 +8,4 @@ There is a summary from 2019 here: https://github.com/MichaelGrupp/RobotMotionPl
 
 - [Kalman Filter & EKF (Cyrill Stachniss)](https://www.youtube.com/watch?v=E-6paM_Iwfc)
 - [Bayes Filter (Cyrill Stachniss)](https://www.youtube.com/watch?v=0lKHFJpaZvE)
+- [Idea behind probabilistic roadmaps](https://www.youtube.com/watch?v=tlFVbHENPCI)
