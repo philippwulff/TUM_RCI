@@ -13,3 +13,4 @@ There is a summary from 2019 here: https://github.com/MichaelGrupp/RobotMotionPl
   - Kalman Filter: [5min Overview](https://www.youtube.com/watch?v=o_HW6GnLqvg) | [Kalman Filter & EKF (Cyrill Stachniss)](https://www.youtube.com/watch?v=E-6paM_Iwfc)
   - Bayes Filter:  [5min Overview](https://www.youtube.com/watch?v=oUq0a8jHSQg) | [Bayes Filter (Cyrill Stachniss)](https://www.youtube.com/watch?v=0lKHFJpaZvE) | [Lecture #6: Bayesian and Kalman Filters](http://stefanosnikolaidis.net/course-files/CS545/Lecture6.pdf)
   - Unscented Kalman Filter: [SLAM Course - 06 - Unscented Kalman Filter (2013/14; Cyrill Stachniss)](https://www.youtube.com/watch?v=DWDzmweTKsQ)
+  - SLAM: [5min Overview](https://www.youtube.com/watch?v=BuRCJ2fegcc) | []()
