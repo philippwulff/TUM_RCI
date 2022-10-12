@@ -15,3 +15,4 @@ There is a summary from 2019 here: https://github.com/MichaelGrupp/RobotMotionPl
   - Unscented Kalman Filter: [SLAM Course - 06 - Unscented Kalman Filter (2013/14; Cyrill Stachniss)](https://www.youtube.com/watch?v=DWDzmweTKsQ)
   - KF vs. EKF vs. UKF vs. Particle Filter: [Nonlinear State Estimators | Understanding Kalman Filters, Part 5](https://www.youtube.com/watch?v=Vefia3JMeHE)
   - EKF SLAM: [5min Overview](https://www.youtube.com/watch?v=BuRCJ2fegcc) | [EKF-SLAM (Cyrill Stachniss)](https://www.youtube.com/watch?v=X30sEgIws0g&t=1s) -> [Slides](https://www.ipb.uni-bonn.de/html/teaching/photo12-2021/2021-pho2-16-ekf-slam.pptx.pdf) (Note: Burschka has a different/weird? interpretation of this)
+  - Particle Filter: [Particle Filter - 5 Minutes with Cyrill](https://www.youtube.com/watch?v=YBeVDxTHiYM)
