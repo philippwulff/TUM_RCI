@@ -2,7 +2,7 @@
 
 [[Course website](https://mvp.in.tum.de/courses/motion/index.html)]
 
-There is a summary from 2022 here: https://github.com/MichaelGrupp/RobotMotionPlanning_summary
+There is a summary from 2022 here: https://github.com/MichaelGrupp/RobotMotionPlanning_summary (by Franz Kaschner)
 
 ## Good explanations
 
